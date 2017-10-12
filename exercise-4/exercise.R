@@ -2,6 +2,7 @@
 
 # Read data into a variable called `grants` using the `read.csv` function
 # Make sure *not* to read the strings as factors
+setwd("~/Desktop/ch9-dataframes/exercise-4")
 grants <- read.csv('data/gates_money.csv', stringsAsFactors = FALSE)
 
 # Use the View function to look at your data
